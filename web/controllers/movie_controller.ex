@@ -9,4 +9,8 @@ defmodule Ex1.MovieController do
   def new(conn, _params) do
     render conn, "new.html"
   end
+  def create(conn, %{"movie" => movie}) do
+    Movies.insert movie
+    redirect conn, to: "/movies"
+  end
 end
