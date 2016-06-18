@@ -1,0 +1,3 @@
+<h2>Listing movies</h2>
+<a class="new-movie" href="/movies/new"></a>
+<ul class="movies"></ul>
