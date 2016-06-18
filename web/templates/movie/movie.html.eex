@@ -3,4 +3,4 @@
   <img src=<%= @movie.cover %>></img>
   <p><%= @movie.plot %></p>
 </div>
-<a class="back" href="/movies"></a>
+<a class="back" href="/movies">Back</a>

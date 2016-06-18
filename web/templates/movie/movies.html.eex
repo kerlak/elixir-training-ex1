@@ -1,5 +1,5 @@
 <h2>Listing movies</h2>
-<a class="new-movie" href="/movies/new"></a>
+<a class="new-movie" href="/movies/new">New movie</a>
 <ul class="movies">
   <%= for movie <- @movies do %>
     <li><a href="/movies/<%= movie.id%>"><%= movie.title %></a></li>
