@@ -6,4 +6,7 @@ defmodule Ex1.MovieController do
   def index(conn, _params) do
     render conn, "movies.html", movies: Movies.all
   end
+  def new(conn, _params) do
+    render conn, "new.html"
+  end
 end
